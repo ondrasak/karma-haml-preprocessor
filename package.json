@@ -1,0 +1,28 @@
+{
+  "name": "karma-haml-preprocessor",
+  "version": "0.1.0",
+  "description": "A Karma plugin. Compile haml script to html",
+  "main": "index.js",
+  "keywords": [
+    "haml-plugin",
+    "haml-preprocessor",
+    "haml"
+  ],
+  "author": {
+    "name": "subteca",
+    "email": "info@subteca.com"
+  },
+  "dependencies": {
+    "haml": "0.4.3"
+  },
+  "peerDependencies": {
+    "karma": ">=0.9"
+  },
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Marian Ondrasak",
+      "email": "m.ondrasak@subteca.com"
+    }
+  ]
+}
