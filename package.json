@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "A Karma plugin. Compile haml script to html",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ondrasak/karma-haml-preprocessor.git"
+  },
   "keywords": [
     "haml-plugin",
     "haml-preprocessor",
