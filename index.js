@@ -6,7 +6,8 @@ var createHamlPreprocessor = function(args, config, logger, helper) {
 
   return function(content, file, done) {
     log.debug('Processing "%s".', file.originalPath);
-    done(haml.compile(content))
+    var compiled = haml.compile(content);
+    done(eval(compiled))
   };
 };
 
