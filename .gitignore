@@ -1,0 +1,20 @@
+# OSX
+.DS_Store
+
+
+#
+# Editor project files
+#
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
+*.iml
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
