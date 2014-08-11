@@ -1,6 +1,6 @@
 {
   "name": "karma-haml-preprocessor",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A Karma plugin. Compile haml script to html",
   "main": "index.js",
   "repository": {
@@ -10,14 +10,16 @@
   "keywords": [
     "haml-plugin",
     "haml-preprocessor",
-    "haml"
+    "haml",
+    "haml-coffee"
   ],
   "author": {
     "name": "subteca",
     "email": "info@subteca.com"
   },
   "dependencies": {
-    "haml": "0.4.3"
+    "haml": "0.4.3",
+    "haml-coffee": "1.14.x"
   },
   "peerDependencies": {
     "karma": ">=0.9"
@@ -27,6 +29,10 @@
     {
       "name": "Marian Ondrasak",
       "email": "m.ondrasak@subteca.com"
+    },
+    {
+      "name": "Giovanni Carnel",
+      "email": "g10@formapparatus.com"
     }
   ]
 }
